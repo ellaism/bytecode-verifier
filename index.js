@@ -61,10 +61,10 @@ program
       console.log('You\'ve chosen: '+chainChoice);
       
       const net_to_provider = {
-        'mainnet':'https://mainnet.infura.io',
-        'ropsten': 'https://ropsten.infura.io',
-        'kovan': 'https://kovan.infura.io',
-        'rinkeby': 'https://rinkeby.infura.io',
+        'mainnet':'https://jsonrpc.ellaism.org',
+        'ropsten': 'https://jsonrpc.ellaism.org',
+        'kovan': 'https://jsonrpc.ellaism.org',
+        'rinkeby': 'https://jsonrpc.ellaism.org',
       }
       
       if (chainChoice == 'mainnet' || chainChoice == 'ropsten'
